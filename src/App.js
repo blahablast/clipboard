@@ -1,10 +1,12 @@
 import Hero from './components/Hero'
+import Snippets from './components/Snippets'
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Hero />
-    </div>
+      <Snippets />
+    </>
   )
 }
 
