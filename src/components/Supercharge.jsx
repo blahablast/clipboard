@@ -1,6 +1,6 @@
-import blacklist from './images/icon-blacklist.svg'
-import text from './images/icon-text.svg'
-import preview from './images/icon-preview.svg'
+import blacklist from '../images/icon-blacklist.svg'
+import text from '../images/icon-text.svg'
+import preview from '../images/icon-preview.svg'
 
 function Supercharge() {
   return (
@@ -13,7 +13,7 @@ function Supercharge() {
         {/* Items Container */}
         <div className='flex flex-col items-center justify-between space-y-16 md:flex-row md:space-y-0 md:space-x-12'>
           {/* Item 1 */}
-          <div className='flex flex-col items-center space-y-5'>
+          <div className='flex-item-container'>
             <img src={blacklist} alt='blacklist' className='mb-6' />
             <h5>Create Blacklists</h5>
             <p className='max-w-md text-grayishBlue'>
@@ -22,7 +22,7 @@ function Supercharge() {
             </p>
           </div>
           {/* Item 2 */}
-          <div className='flex flex-col items-center space-y-5'>
+          <div className='flex-item-container'>
             <img src={text} alt='text' className='mb-6' />
             <h5>Plain Text Snippets</h5>
             <p className='max-w-md text-grayishBlue'>
@@ -30,7 +30,7 @@ function Supercharge() {
             </p>
           </div>
           {/* Item 3 */}
-          <div className='flex flex-col items-center space-y-5'>
+          <div className='flex-item-container'>
             <img src={preview} alt='preview' className='mb-6' />
             <h5>Sneak Preview</h5>
             <p className='max-w-md text-grayishBlue'>

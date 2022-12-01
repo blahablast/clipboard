@@ -25,6 +25,10 @@
   @apply flex flex-col justify-center w-full space-y-6 text-xl text-white md:flex-row md:space-y-0 md:space-x-4;
 }
 
+.flex-item-container {
+  @apply flex flex-col items-center space-y-5;
+}
+
 /* Custom CSS */
 body {
   background-image: url('/src/images/bg-header-desktop.png');
@@ -36,4 +40,9 @@ body {
   body {
     background-image: url('/src/images/bg-header-mobile.png');
   }
+}
+
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
 }
