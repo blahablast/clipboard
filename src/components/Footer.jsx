@@ -41,7 +41,9 @@ function Footer() {
                 </div>
               </div>
               {/* Menu 3  */}
-              <div className='flex flex-col space-y-4 text-center md:text-left'>
+              <div
+                id='gotcha'
+                className='flex flex-col space-y-4 text-center md:text-left'>
                 <div>
                   <a href='#' className='hover:text-strongCyan'>
                     Install Guide
